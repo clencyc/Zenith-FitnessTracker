@@ -13,23 +13,35 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.zenith_fitnesstrack.ui.theme.Zenith_fitnesstrackTheme
 
-class MainActivity : ComponentActivity() {
+class DashboardActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            GreetingPreview()
-
+            Zenith_fitnesstrackTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    Greeting3(
+                        name = "Android",
+                        modifier = Modifier.padding(innerPadding)
+                    )
+                }
+            }
         }
     }
 }
 
-@Preview(showBackground = true,
-    device = "spec:id=reference_phone,shape=Normal,width=411,height=891,unit=dp,dpi=420",
-    showSystemUi = true
-)
 @Composable
-fun GreetingPreview() {
-    SplashScreenPreview()
-    LoginScreen()
+fun Greeting3(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview3() {
+    Zenith_fitnesstrackTheme {
+        Greeting3("Android")
+    }
 }
