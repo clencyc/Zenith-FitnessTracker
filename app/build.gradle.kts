@@ -52,7 +52,10 @@ android {
 }
 
 dependencies {
+    implementation(libs.firebase.crashlytics.buildtools)
+    val nav_version = "2.7.1"
 
+    implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -85,4 +88,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // animated navigation bar in android
+
 }
