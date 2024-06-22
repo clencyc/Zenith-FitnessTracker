@@ -1,5 +1,6 @@
 package com.example.zenith_fitnesstrack
 
+import WorkoutApp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -25,5 +26,6 @@ class MainActivity : ComponentActivity() {
 )
 @Composable
 fun GreetingPreview() {
-    Home()
+    //Home()
+    WorkoutApp()
 }

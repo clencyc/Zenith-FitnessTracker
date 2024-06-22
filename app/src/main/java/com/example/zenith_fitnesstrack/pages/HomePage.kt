@@ -27,8 +27,6 @@ import androidx.compose.ui.unit.sp
 )
 @Composable
 fun Homepage(modifier: Modifier = Modifier) {
-    
-    
 
 //    Column(modifier = Modifier.padding(16.dp)) {
 //        Text("Today's Activity", style = MaterialTheme.typography.h6)

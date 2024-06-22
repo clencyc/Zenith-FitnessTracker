@@ -69,7 +69,7 @@ fun Home() {
             }
         }
     ) { innerPadding ->
-        ContentScreen(modifier = Modifier.padding(innerPadding),selectedIndex)
+        ContentScreen(selectedIndex = selectedIndex)
 
     }
 }

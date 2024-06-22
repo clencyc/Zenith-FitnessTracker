@@ -34,7 +34,6 @@ import com.example.zenith_fitnesstrack.R
 )
 @Composable()
 fun Registration() {
-
     var name by remember {
         mutableStateOf("")
     }
