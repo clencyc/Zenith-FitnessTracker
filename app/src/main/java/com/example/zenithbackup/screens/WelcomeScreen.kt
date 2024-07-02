@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.zenithbackup.Authentication.LoginActivity
+import com.example.zenithbackup.Authentication.RegisterActivity
 import com.example.zenithbackup.R
 
 class WelcomeScreen : AppCompatActivity() {
@@ -21,7 +22,7 @@ class WelcomeScreen : AppCompatActivity() {
 
         BTN_Getstarted = findViewById(R.id.button)
         BTN_Getstarted.setOnClickListener {
-            val i = Intent(applicationContext, LoginActivity::class.java)
+            val i = Intent(applicationContext, RegisterActivity::class.java)
             startActivity(i)
         }
 

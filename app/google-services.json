@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "476109074802",
+    "firebase_url": "https://jeddy-homes-default-rtdb.firebaseio.com",
+    "project_id": "jeddy-homes",
+    "storage_bucket": "jeddy-homes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476109074802:android:629305c704d086b58b2deb",
+        "android_client_info": {
+          "package_name": "com.example.fitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmyxma3ZiTOhBhrKT6exIDg8c6oD8zL0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476109074802:android:997c485e81d713c58b2deb",
+        "android_client_info": {
+          "package_name": "com.example.zenithbackup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmyxma3ZiTOhBhrKT6exIDg8c6oD8zL0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
