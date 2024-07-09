@@ -52,4 +52,37 @@
     <string name="profile">Profile</string>
     <string name="progress">Progress</string>
     <string name="home">Home</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="my_api_key">AIzaSyAfkay5Md47gS1ps1lMHcHyYGyV_gBtMX8</string>
+    <string name="find_services_near_you_faster_and_smarter">Find services near you faster and smarter</string>
+    <string name="create_an_account_to_continue">Create an account to continue</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="sign_in_with_google">SIGN IN WITH GOOGLE</string>
+    <string name="login_to_your_account_to_continue">Login to your account to continue</string>
+    <string name="welcome_back">Welcome Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="geeks_for_geeks">Geeks for Geeks</string>
+    <string name="already_have_an_account_sign_in">Already have an account, Sign In</string>
+    <string name="techpro_konnnect">TECHPRO-Konnect!</string>
+    <string name="back_button">back button</string>
+    <string name="let_s_get_started">Let\'s Get started</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="serve">Serve</string>
+    <string name="search_for_services">Search for services</string>
+    <string name="helps_with_easy_access_to_various_technician_services">Helps with easy access to various technician services</string>
+    <string name="find_a_service_you_need">Find a service you need</string>
+    <string name="around_you">Around you</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="todo">TODO</string>
+    <string name="log_out">Log out</string>
+    <string name="enter_your_work_location">Enter your Work location</string>
+    <string name="clency_christine">Clency Christine</string>
+    <string name="enter_your_home_location">Enter your home location</string>
+    <string name="places_near_you">Places near you</string>
+    <string name="set_your_weekly_goals_with_suggestions">Set your weekly goals with suggestions</string>
+    <string name="hello_felix">Hello Felix!</string>
+    <string name="find_more_suggestions">Find more suggestions</string>
 </resources>
