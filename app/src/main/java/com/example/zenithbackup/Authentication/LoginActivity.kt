@@ -32,6 +32,7 @@ class LoginActivity : AppCompatActivity() {
 
         // Initialize Firebase Auth
         // auth = Firebase.auth
+        auth = FirebaseAuth.getInstance()
 
         enterEmail = findViewById(R.id.editTextText)
         enterPass = findViewById(R.id.editTextTextPassword)
@@ -40,7 +41,6 @@ class LoginActivity : AppCompatActivity() {
 
         loginBtn.setOnClickListener {
             val email = enterEmail.text.toString().trim()
-
             val pass = enterPass.text.toString().trim()
 
             if (email.isNotEmpty() && pass.isNotEmpty()) {
