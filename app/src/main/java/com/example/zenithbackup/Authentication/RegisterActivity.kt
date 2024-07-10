@@ -68,7 +68,6 @@ class RegisterActivity : AppCompatActivity() {
             }
         }
     }
-
         // ... (your existing onStart() method)
 
         private fun updateUI(user: FirebaseUser?) {
@@ -81,11 +80,9 @@ class RegisterActivity : AppCompatActivity() {
                 // Registration failed, show an error message or clear input fields
             }
         }
-
     private fun validateInputs(email: String, pass: String): Boolean {
         return email.isNotEmpty() && pass.isNotEmpty()
     }
-
     private fun registerUser(email: String, password: String) {
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->

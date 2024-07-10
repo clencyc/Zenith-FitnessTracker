@@ -16,15 +16,6 @@
         android:theme="@style/Theme.ZenithBackup"
         tools:targetApi="31">
         <activity
-            android:name=".displayUsers.users"
-            android:exported="false" />
-        <activity
-            android:name=".user"
-            android:exported="false" />
-        <activity
-            android:name=".displayUsers.ViewUsers"
-            android:exported="false" />
-        <activity
             android:name=".ToWebActivity"
             android:exported="false" />
         <activity
@@ -49,12 +40,10 @@
         <activity
             android:name=".screens.WelcomeScreen"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.ZenithBackup"
             tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
