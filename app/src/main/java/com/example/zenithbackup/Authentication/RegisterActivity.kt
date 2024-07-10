@@ -35,7 +35,7 @@ class RegisterActivity : AppCompatActivity() {
 //        auth = Firebase.auth
         auth = FirebaseAuth.getInstance()
 
-        //fullname_edt = findViewById(R.id.editTextText2)
+        // fullname_edt = findViewById(R.id.editTextText2)
         emailAddress = findViewById(R.id.editTextText3)
         passCode = findViewById(R.id.editTextTextPassword2)
         create_Account = findViewById(R.id.button3)
