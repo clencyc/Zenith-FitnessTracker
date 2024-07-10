@@ -18,12 +18,11 @@ The build apk is available for installation on your android device, as we wait f
 
 ## Usage
 1. Download the apk from the specified path
-2. Transfer the apl to your android devicee
+2. Transfer the apk to your android device
 3. Open the APK on your device and follow the prompts to install. You may need to enable installation from unknown sources in your device settings.
-
-4. Sign Up: Create an account after entering your details.
-5. Enjoy the experience around the applications with reccommendations.
-
+4. Sign Up: Create an account after entering your credentials.
+5. Enjoy the experience around the application. 
+/home/clencyc/Pictures/Screenshots/Screenshot from 2024-07-10 11-13-14.png
 ## Upcoming features
 I would like to integrate AI in recommending the workouts and also build a community for the application to help keep track of the progress.
 
