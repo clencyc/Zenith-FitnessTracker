@@ -23,7 +23,8 @@ The build apk is available for installation on your android device, as we wait f
 4. Sign Up: Create an account after entering your credentials.
 5. Enjoy the experience around the application.
    
-![App Screenshot](/home/clencyc/Pictures/Screenshots/Screenshot from 2024-07-10 11-13-14.png)
+![App Screenshot](images/Screenshot from 2024-07-10 11-13-14.png)
+
 
 ## Upcoming features
 I would like to integrate AI in recommending the workouts and also build a community for the application to help keep track of the progress.
