@@ -15,6 +15,7 @@ class ToWebActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_to_web)
 
+        // this is the webview to a fitness website
         val webview = findViewById<WebView>(R.id.webview)
         webview.loadUrl("https://www.fitnessblender.com/")
 
